@@ -1,98 +1,93 @@
-.header {
-    height: 120px;
-    position: relative;
-    margin-bottom: 132px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.header {
-	overflow: hidden;
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-.header{
-	flex: 1;
-	position: relative;
-}
-
-
 .container {
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	max-width: 1141px;
+    margin: 0 auto;
+    width: 1141px;
 }
 
-.logo, .menu, .menu__item, .contacts {
-	display: inline-block;
+
+.header {
+    height: 124px;
+    position: relative;
+    margin-bottom: 71px;
+
 }
 
-.logo, .contacts {
-	margin-top: 29px;
-	float: left;
-}
-
-.contacts{
-	float: right;
-    font-style: normal;
-
+.logo {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0;
 }
 
 .menu {
-	margin-left: 79px;
-	margin-top: 43px;
+    position: absolute;
+    top: 38px;
+    left: 160px;
 }
 
+.contacts {
+    position: absolute;
+    top: 27px;
+    right: 2px;
+}
+
+.contacts__desc {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+}
+ 
 .menu__item {
-	margin-right: 54px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
 }
 
-.menu__item:last-child {
-	margin-right: 0px;
-}
-
-.contacts__phone {
-	font-size: 26px;
-	line-height: 20px;
-	font-style: normal;
-}
-
-
-.menu {
-    font-family: 'OpenSans', sans-serif;
-    font-weight: 400; 
+.menu__link {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
-
 }
 
+.contacts {
+    font-style: normal;
+    text-align: right;
+}
 .contacts__phone {
-    font-family: 'OpenSans', sans-serif;
+    text-decoration: none;
     font-weight: 400;
     font-size: 26px;
-    line-height: 30px;
+    margin-bottom: 0;
 }
 
-.contacts__info {
-    font-family: 'OpenSans', sans-serif;
+
+.contacts__dropdown-title {
     font-weight: 400;
     font-size: 13px;
-    line-height: 20px;
-    text-decoration-line: underline;
+    text-decoration: underline;
+}
 
+.hero__text-section {
+    width: 511px;
+    margin-bottom: 260px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.hero__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.btn {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
 }
