@@ -1,3 +1,10 @@
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 511px;
+}
+
 .container {
     margin: 0 auto;
     width: 1141px;
@@ -5,28 +12,33 @@
 
 
 .header {
-    height: 124px;
-    position: relative;
+    padding-top: 27px;
     margin-bottom: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 124px;
+
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
 
 }
 
 .logo {
     display: block;
-    position: absolute;
-    top: 29px;
-    left: 0;
+    margin-right: 79px;
+    
 }
 
-.menu {
-    position: absolute;
-    top: 38px;
-    left: 160px;
-}
 
 .contacts {
-    position: absolute;
-    top: 27px;
     right: 2px;
 }
 
@@ -65,9 +77,12 @@
     text-decoration: underline;
 }
 
+.hero {
+    margin-bottom: 246px;
+}
+
 .hero__text-section {
-    width: 511px;
-    margin-bottom: 260px;
+    width: 45%;
 }
 
 .hero__title {
